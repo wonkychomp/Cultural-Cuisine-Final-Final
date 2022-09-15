@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="page2.html">
+  <script src="js\jscript"></script>
+  <title>Cultural Cuisine</title>
+</head>
+<body>
+  <div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">Italy</a></li>
+        <li><a href="page3.html">Mexico</a></li>
+        <li><a href="page4.html">Wales</a></li>
+     </ul>
+    </nav>
+  </div>
+
+  <main>
+ <h1>Cultural Cuisine</h1>
+ <h2>Discover cuisines from across the globe</h2>
+
+<div class="flex-container">
+<div class="flip-card">
+  <div class="flip-card-inner-Italy">
+    <div class="flip-card-front-Italy">
+      <a href="page2.html">
+      <img src="img\Italy Flag - Round.png" alt="Italian Flag" style="width:300px;height:300px;">
+    </a>
+    </div>
+    <div class="flip-card-back-Italy">
+      <a href="page2.html">
+      <img src="img\Spag bol round.png" alt="Spag Bol" style="width:300px;height:300px;">
+    </a>
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner-Mexico">
+    <div class="flip-card-front-Mexico">
+      <a href="page3.html">
+       <img src="img\Mexico-modified.png" alt="Mexican Flag" style="width:300px;height:300px;">
+      </a>
+    </div>
+    <div class="flip-card-back-Mexico">
+      <a href="page3.html">
+      <img src="img\Chilli-modified.png" alt="Chilli-con-carne" style="width:300px;height:300px;">
+    </a>
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner-Wales">
+    <div class="flip-card-front-Wales">
+      <a href="page4.html">
+      <img src="img\Wales-modified.png" alt="Welsh Flag" style="width:300px;height:300px;">
+    </a>
+    </div>
+    <div class="flip-card-back-Wales">
+      <a href="page4.html">
+      <img src="img\Rarebit-modified.png" alt="Welsh Rarebit" style="width:300px;height:300px;">
+    </a>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+
+<button class="open-button" onclick="openForm()">Subscribe to newsletter</button>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h5>Subscribe</h5>
+
+    <label for="email"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="email" required>
+
+    <label for="psw"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="psw" required>
+
+    <button type="submit" class="btn">Subscribe</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<div>
+  <footer>
+    Made by Group 4 CFG 2022
+    <div>----</div>
+    Visit us on socials:
+    <div class="container" id="footercontainer">
+      <a href="https://www.facebook.com">
+      <img id="fb" src="img\fb.png" alt="facebook logo." width="30">
+      <a href="https://www.instagram.com/">
+      <img id="insta" src="img\insta.png" alt="instagram logo." width="30">
+      <a href="https://www.twitter.com">
+      <img id="twitter" src="img\twitter.png" alt="twitter logo." width="30">
+    </div>
+  </footer>
+</div>
+</body>
+</html>

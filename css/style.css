@@ -1,0 +1,389 @@
+footer {
+  background-color: #8f0500;
+  text-align: center;
+  padding: 10px;
+  align-content: flex-end;
+  color: rgb(150, 238, 169);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 10px solid rgb(0, 94, 45);
+  background-color: #8f0500;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(150, 238, 169);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li a:hover {
+  background-color: rgb(32, 160, 60);
+}
+
+body {
+  background-color: rgb(80, 184, 121);
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-family: 'Mouse Memoirs', sans-serif;
+  
+  font-size: 150px;
+  margin: 0px;
+  padding-top: 40px;
+  color: #8f0500;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 1300px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-around;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner-Italy {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner-Italy {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front-Italy, .flip-card-back-Italy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+   
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front-Italy {
+    
+    color: black;
+    background-color: transparent;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-Italy {
+    background-color: rgb(80, 184, 121);
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner-Mexico {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner-Mexico {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front-Mexico, .flip-card-back-Mexico {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+   
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front-Mexico {
+    
+    color: black;
+    background-color: transparent;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-Mexico {
+    background-color: rgb(80, 184, 121);
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner-Wales {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner-Wales {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front-Wales, .flip-card-back-Wales {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+   
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front-Wales {
+    
+    color: black;
+    background-color: transparent;
+  }
+  
+  /* Style the back side */
+  .flip-card-back-Wales {
+    background-color: rgb(80, 184, 121);
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+
+h2 {
+  display: block;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding-top: 0px;
+  color: rgb(0, 94, 45);
+
+}
+
+
+h3 {
+  text-align: center;
+  font-family:'Mouse Memoirs', sans-serif;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #8f0500;
+  background-color: rgb(32, 160, 60);
+  text-decoration: underline;
+
+}
+
+.bodytext {
+  font-family:  'Courier New', Courier, monospace;
+  color:rgb(0, 94, 45);
+  font-size: 18px;
+}
+
+#subhead {
+  display: block;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  background-color: rgb(32, 160, 60);
+
+}
+
+#italyflag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mexicocity {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cardiffcastle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#footercontainer{
+  display:flex;
+  flex-flow: inline-flex;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 350px;
+  padding-top: 20px;
+}
+
+.descriptions {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+#descriptionone {
+  text-align: center;
+  width: 300px;
+}
+
+#descriptiontwo {
+  text-align: center;
+  width: 300px;
+}
+
+#descriptionthree {
+  text-align: center;
+  width: 300px;
+}
+
+.countryheader {
+  background-color:#8f0500;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color:#8f0500;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(126, 52, 52);
+  
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  box-sizing: border-box;
+  
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  font-family: 'Mouse Memoirs', sans-serif;
+  
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+ 
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  
+}
+
+h5 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  color: rgb(90, 235, 90);
+  text-align: center;
+  font-size: 40px;
+}
